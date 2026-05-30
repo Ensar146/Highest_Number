@@ -1,0 +1,42 @@
+*{
+    background: linear-gradient(to bottom, purple, yellow, red);
+}
+
+.title{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+.numbers{
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    font-size: 18px;
+
+
+
+}
+
+.names{
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    gap: 40px;          
+}
+
+.btn{
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    
+}
