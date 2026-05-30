@@ -11,11 +11,14 @@ server.commit()
 
 app=Flask(__name__)
 
+x=0
+y=""
 
 @app.route("/", methods=["GET","POST"])
 def Home():
-    x=0
-    y=""
+    global x,y
+
+
     if request.method=="POST":
         number=int(request.form["number"])
         name=request.form["name"]
